@@ -1,0 +1,51 @@
+.leave-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.leave-form-container h2 {
+  text-align: center;
+}
+
+.leave-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.leave-form-container .form-group {
+  margin-bottom: 1rem;
+}
+
+.leave-form-container label {
+  font-weight: bold;
+}
+
+.leave-form-container input[type='text'],
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.leave-form-container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.calendar {
+  height: 100vh;
+}
+
+
+.leave-form-container button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.leave-form-container button:hover {
+  background-color: #0056b3;
+}
